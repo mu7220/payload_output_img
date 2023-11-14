@@ -11,11 +11,11 @@ on:
       ROM_URL:
         description: '完整包下载链接'
         required: true
-        default: 'https://hugeota.d.miui.com/V14.0.2.0.TGACNXM/miui_THYME_V14.0.2.0.TGACNXM_7b4df32800_13.0.zip'
+        default: 'https://hugeota.d.miui.com/OS1.0.23.11.8.DEV/miui_MONDRIAN_OS1.0.23.11.8.DEV_afb8edb5c9_14.0.zip?t=1699952378&s=6b2ece88a61a438b2e2473497a48027a'
       IMG_NAME:
         description: '你要拆的分区(比如 boot/init_boot/system/product)'
         required: true
-        default: 'boot'  
+        default: 'vendor_dlkm'  
       
 jobs:
   build:
